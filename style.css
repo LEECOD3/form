@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#274471;
+    font-family: 'Lato' , sans-serif;
+}
+
+.container {
+    width: 400px;
+    text-align: left;
+    background-color: rgb(243,243,243);
+    border-radius:6px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#contactForm {
+    padding: 25px;
+}
+
+#firstName {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    border-radius: 6px;
+}
+
+#surname {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    border-radius: 6px;
+}
+
+#email {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    border-radius: 6px;
+}
+
+#message {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0px;
+    border-radius: 6px;
+}
+
+#submit {
+    background-color: #1ac0f3;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    width:100%;
+    color:white;
+    
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.box {
+    border:0px;
+}
+
+label {
+    color:rgba(100, 100, 100, 0.9);
+}
+
+/* Have not managed to figure out the pseudo class for the input boxes */
